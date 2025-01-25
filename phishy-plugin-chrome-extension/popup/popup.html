@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishy</title>
+    <link rel="stylesheet" href="./popup.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+   
+</head>
+    <body>
+        
+        <!-- <span class="material-symbols-outlined">
+            close
+        </span> -->
+
+<div class="container d-flex justify-content-start align-items-center">
+    <div class="card" style="width: 18rem;">
+        <img src="../icons/128.png" class="img-fluid" alt="...">
+        <div class="card-body">
+            <code><h5 class="card-title">Phishly</h5></code>
+            <p class="card-text"></p>
+            <!-- <a href="#" class="btn btn-outline-success">Be Safe</a> -->
+            <div class="report mt-5 d-flex justify-content-center gap-2">
+                <a href="report.html">
+                    <button id="report_btn" for="exampleFormControlTextarea1" class="btn btn-outline-danger mb-2">Report
+                        URL</button>
+                </a>
+                <a href="form.html"><button id="report_btn" style=" color: info" for="exampleFormControlTextarea1"
+                        class="btn btn-outline-info mb-2">Check URL</button>
+                </a>
+            </div>
+        </div>
+        <div id="matter" class="alert" role="alert">
+            <div class="placeholder-glow">
+                <span id="glow" class="placeholder">
+                    This Page is <span id="percent">99</span>% Safe. 
+                </span>
+            </div>
+        </div>
+        <a style="font-size: 10px; text-align:'right';">Beta Version 1.0.0 - Not 100% Accurate</a>
+    </div>
+    <!-- <div class="py-2 px-1 status d-flex flex-column align-items-center justify-content-between">
+        <div class="report h-75 d-flex flex-column justify-content-center gap-2" >
+        <a href="report.html">
+            <button id="report_btn" for="exampleFormControlTextarea1" class="btn btn-outline-danger mb-2">Report URL</button>
+         </a>
+         <a href="form.html" ><button id="report_btn" style=" color: info" for="exampleFormControlTextarea1"
+            class="btn btn-outline-info mb-2">Check URL</button>
+        </a>
+        </div> -->
+        <!-- <div id="toast_s" class="toast align-items-center border-0 bg-success" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body">
+                    Successfully reported
+                </div>
+                <button id="toast_sb" type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"
+                    aria-label="Close" ></button>
+            </div>
+        </div>
+        <div id="toast_e" class="toast align-items-center border-0 bg-danger" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body">
+                    Error in Reporting
+                </div>
+                <button id="toast_eb"  type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"
+                    aria-label="Close" ></button>
+            </div>
+        </div> -->
+        <!-- <div class="symbol_list mb-3 h-25 d-flex justify-content-end flex-column">
+            <div class="symbol d-none text-center" id="symbol" style="min-width:8rem; min-height: 2.5rem;">
+                <div class="p-1" style="min-width:8rem; min-height: 2.5rem;">Be Careful</div>
+            </div>
+            <div class="loading" id="load">
+                <div class="spinner-border text-warning" style="width: 2.5rem; height: 2.5rem;" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-grow text-info" style="width: 2.5rem; height: 2.5rem;" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    
+</div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+</body>
+<script defer src="popup.js"></script>
+</html>

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+
+html body{
+    background-color: black !important;
+    /* color: #20C20E !important; */
+    min-height: 370px;
+    min-width: 300px;
+    /* font-family: 'Press Start 2P', cursive !important; */
+    font-family: 'Dosis', cursive !important;
+    /* font-size: 30px !important; */
+}
+body{
+
+    border: solid #649568 5px !important;
+    padding: 5px !important;
+}
+img {
+    width: 45%;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border: #20C20E solid 5px;
+}
+
+/* .symbol_list{
+    border: #6a00ff 2px solid !important;
+} */
+
+.card {
+    padding: 1.5em .5em .5em;
+    border-radius: 2em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, .2);
+    color: #20C20E !important;
+    background-color: black !important;
+    height: 400px !important;
+}
+
+h5{
+    color: #20C20E !important;
+    /* font-family: 'Press Start 2P', cursive !important; */
+    font-family: 'Train One', cursive !important;
+    text-transform: uppercase;
+    font-size: 28px !important;
+}
+
+/* option{
+    font-size: 1rem !important;
+    line-height: 0 !important;
+} */
+
+/* label{
+    color: red !important;
+} */
+
+.status{
+    border: #649568 solid 3px !important;
+    width: 14rem ;
+    height: 400px;
+    margin-left: 4px;
+    font-size: 1rem !important;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.btn {
+    border-radius: 2em;
+    padding: .5em 1.5em !important;
+    font-size: 15px !important;
+}
+
+.fixed-top{
+    top:2;
+    right: 2 !important;
+    left: auto !important;
+}
